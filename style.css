@@ -19,7 +19,7 @@ body {
     top: 0;
     width: 100%;
     /* text-decoration: underline; */
-  }
+   }
   
   #navbar {
     text-align: right;
@@ -87,15 +87,17 @@ body {
     margin-right: 170px;
   }
   
-  #locations {
+  #locations { 
     display: flex;
-    background: url("img-locations-background.webp") center;
+    background: url("img-locations-background.webp") center ;
     flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1200px;
-    min-height: 500px;
-    
+     margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    background-repeat: no-repeat;
+    /* background-size: cover;     */
+    padding-top: 20px;
+    background-position-y: top;
   }
   
   .loc-section {
